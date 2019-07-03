@@ -1,0 +1,46 @@
+2019-06-30 11:34:43.459  INFO 18381 --- [restartedMain] com.cdut.App                             : Starting App on zhanghanlundeMacBook-Pro.local with PID 18381 (/Users/zhanghanlun/Downloads/springdemo/target/classes started by zhanghanlun in /Users/zhanghanlun/Downloads/springdemo)
+2019-06-30 11:34:43.468  INFO 18381 --- [restartedMain] com.cdut.App                             : No active profile set, falling back to default profiles: default
+2019-06-30 11:34:43.548  INFO 18381 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-30 11:34:43.549  INFO 18381 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-30 11:34:44.926  INFO 18381 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-30 11:34:44.930  INFO 18381 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-30 11:34:44.955  INFO 18381 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-30 11:34:45.438  INFO 18381 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1702974] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-30 11:34:46.043  INFO 18381 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-30 11:34:46.071  INFO 18381 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-30 11:34:46.072  INFO 18381 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-30 11:34:46.299  INFO 18381 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/cdut]   : Initializing Spring embedded WebApplicationContext
+2019-06-30 11:34:46.299  INFO 18381 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2750 ms
+2019-06-30 11:34:47.964  INFO 18381 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2019-06-30 11:34:48.069  INFO 18381 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-30 11:34:48.315  INFO 18381 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-30 11:34:48.380  INFO 18381 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-30 11:34:48.510  INFO 18381 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-30 11:34:48.907  INFO 18381 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30b9b2fa, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d5b53fe, org.springframework.security.web.header.HeaderWriterFilter@735bbecd, org.springframework.security.web.csrf.CsrfFilter@6a09c7e2, org.springframework.security.web.authentication.logout.LogoutFilter@f50d384, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58596046, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@8f53700, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@50f47454, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3ab7d9ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6db6cccf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b492c38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5af33d6f, org.springframework.security.web.session.SessionManagementFilter@2bd4cf85, org.springframework.security.web.access.ExceptionTranslationFilter@2d666687, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ee827e8]
+2019-06-30 11:34:49.278  INFO 18381 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-30 11:34:49.303  INFO 18381 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-30 11:34:49.364  INFO 18381 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-30 11:34:49.553  INFO 18381 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cdut'
+2019-06-30 11:34:49.560  INFO 18381 --- [restartedMain] com.cdut.App                             : Started App in 6.642 seconds (JVM running for 8.152)
+2019-06-30 11:34:50.454  INFO 18381 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-30 11:34:50.455  INFO 18381 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/cdut]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-30 11:34:50.455  INFO 18381 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-30 11:34:50.473  INFO 18381 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-06-30 11:34:51.326  INFO 18381 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-30 11:34:51.738  INFO 18381 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-06-30 11:34:51.740  INFO 18381 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-06-30 11:36:26.870  INFO 18381 --- [http-nio-8080-exec-5] com.cdut.utils.SystemLogAspect           : URL : http://localhost:8080/cdut/index
+2019-06-30 11:36:26.871  INFO 18381 --- [http-nio-8080-exec-5] com.cdut.utils.SystemLogAspect           : IP : 0:0:0:0:0:0:0:1
+2019-06-30 11:36:26.873  INFO 18381 --- [http-nio-8080-exec-5] com.cdut.utils.SystemLogAspect           : 执行方法  :com.cdut.controller.HomeController.index
+2019-06-30 11:36:26.873  INFO 18381 --- [http-nio-8080-exec-5] com.cdut.utils.SystemLogAspect           : HTTP_METHOD : GET
+2019-06-30 14:57:21.439  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m28s161ms).
+2019-06-30 15:41:34.169  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m12s731ms).
+2019-06-30 20:10:37.558  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h808ms).
+2019-06-30 20:27:05.851  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s295ms).
+2019-06-30 21:20:38.362  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m32s512ms).
+2019-06-30 21:21:24.423  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s60ms).
+2019-06-30 22:21:15.779  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m51s337ms).
+2019-06-30 22:21:32.053  WARN 18381 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=16s292ms), soft-evicting connections from pool.
+2019-06-30 22:50:56.185  INFO 18381 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-30 22:50:57.358  INFO 18381 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-30 22:50:57.368  INFO 18381 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

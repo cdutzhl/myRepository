@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.cdut.dao.UserMapper">
+    <resultMap id="userMap" type="com.cdut.model.User">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="password" property="passwd" jdbcType="VARCHAR"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <insert id="save" parameterType="com.cdut.dao.UserMapper">
+        INSERT INTO user(id,username,password) VALUES (#{id,jdbcType=INTEGER},#{username,jdbcType=VARCHAR},#{passwd,jdbcType=VARCHAR})
+    </insert>
+    <select id="getAll" resultMap="userMap">
+        SELECT * from USER
+    </select>
+
+    <select id="getUserById" resultMap="userMap" parameterType="int">
+        SELECT * from USER where id=#{id}
+    </select>
+
+</mapper>
